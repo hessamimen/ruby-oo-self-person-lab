@@ -41,8 +41,8 @@ class Person
     end
 
     def work_out
-        self.hygiene -=3 if self.hygiene >=0
-        self.happiness += 2 if self.happiness <=10
+        self.hygiene -=3 
+        self.happiness += 2 
         '♪ another one bites the dust ♫'
     end
 
